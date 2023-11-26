@@ -26,7 +26,7 @@ class RegularExpression {
         if (i == 0) {
             return false;
         }
-        if (p.charAt(j - 1) == '.') {
+        if (p.charAt(j - 1)== '.') {
             return true;
         }
         return s.charAt(i - 1) == p.charAt(j - 1);
